@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "quiz-backend"
+version = "0.1.0"
+description = ""
+authors = ["Ali Hassan <raoalihassan1145@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.1"
+uvicorn = {extras = ["standard"], version = "^0.30.3"}
+sqlmodel = "^0.0.21"
+psycopg2 = "^2.9.9"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = "^1.7.4"
+types-python-jose = "^3.3.4.20240106"
+types-passlib = "^1.7.7.20240327"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
